@@ -1,0 +1,48 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Rules from flutter_lints that you might want to disable (uncomment and set to false)
+    avoid_print: true
+    always_declare_return_types: true
+    always_put_control_body_on_new_line: true
+    avoid_empty_else: true
+    avoid_redundant_argument_values: true
+    avoid_returning_null_for_future: true
+    cascade_invocations: true
+    comment_references: true
+    curly_braces_in_flow_control_structures: true
+    depend_on_referenced_packages: true
+    directives_ordering: true # Enforces a consistent order for imports
+    empty_catches: false # Often useful to allow empty catches for specific scenarios
+    leading_newlines_in_multiline_strings: true
+    no_duplicate_case_values: true
+    omit_local_variable_types: false # Prefer explicit types for clarity
+    prefer_const_declarations: true
+    prefer_relative_imports: true # Encourages relative paths for files within the same package
+    # It forces documentation for every public member.
+    sort_constructors_first: true
+    sort_unnamed_constructors_first: true
+    unnecessary_await_in_return: true
+    unnecessary_lambdas: true
+    unnecessary_null_checks: true
+    camel_case_types: true
+    # Enforces lowerCamelCase for library, import, and part-of names
+    library_prefixes: true
+    # Encourages using lowercase_with_underscores for file names
+    file_names: true
+    # Classes, enums, typedefs, and mixins should be in UpperCamelCase
+    type_annotate_public_apis: true
+    # Enforces naming for constants and fields
+    constant_identifier_names: true
+    non_constant_identifier_names: true # Set to true to disallow non-standard names
+
+analyzer:
+  errors:
+    avoid_print: error
+    unnecessary_null_checks: error
+    camel_case_types: error
+    library_prefixes: error
+    file_names: error
+    constant_identifier_names: error
+    non_constant_identifier_names: error

@@ -1,0 +1,8 @@
+sealed class PurchaseOrderItemDetailExceptions implements Exception{}
+
+
+class PurchaseOrderItemDetailServerException extends PurchaseOrderItemDetailExceptions {}
+
+class PurchaseOrderItemDetailDbException extends PurchaseOrderItemDetailExceptions {}
+
+class PurchaseOrderItemDetailUnknowException extends PurchaseOrderItemDetailExceptions {}

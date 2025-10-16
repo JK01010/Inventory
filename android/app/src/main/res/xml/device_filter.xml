@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Koamtac vendor ID is usually 0x134B -->
+    <usb-device /> <!-- 0x134B = 4939 -->
+</resources>

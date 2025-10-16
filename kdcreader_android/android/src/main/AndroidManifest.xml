@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="koamtac.kdc.sdk.plugins">
+    <application>
+        <activity
+            android:name=".activity.ComponentScanActivity"
+            android:label="ScanComponent">
+        </activity>
+    </application>
+</manifest>
